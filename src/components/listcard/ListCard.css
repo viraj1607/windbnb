@@ -1,0 +1,35 @@
+.card-container{
+    width: 26vw;
+}
+
+.card-container img{
+    width: 100%;
+    border-radius: 25px;
+    height: 35vh;
+    object-fit: cover;
+    margin: 3vh 0vh;
+}
+
+.card-container .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info span{
+    color: grey;
+}
+
+.info .super{
+    color: black;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 4px 8px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.card-container p{
+    font-weight: 700 ;
+    text-align: left;
+}
